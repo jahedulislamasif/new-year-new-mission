@@ -79,7 +79,7 @@
 }
 
 .victory {
-    margin: 20px 50px 20px 50px;
+    margin: 80px 50px 20px 50px;
     padding: 0 100px 0 100px;
     border-radius: 16px;
     display: flex;
@@ -138,4 +138,141 @@
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
+}
+
+.event {
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    ;
+    margin: 160px 50px 20px 50px;
+    padding: 100px 200px 100px 200px;
+}
+
+.event h4 {
+    text-align: center;
+}
+
+.event-text {
+    color: #070211;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+    text-transform: capitalize;
+}
+
+.red-text {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+    /* 175% */
+    text-transform: capitalize;
+}
+
+.btn-primary {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 0;
+    border-radius: 8px;
+    background: #F00;
+    cursor: pointer;
+}
+
+
+.three-item {
+    display: flex;
+    margin-top: 160px;
+    justify-content: space-between;
+}
+
+.offer {
+    /* margin-left: 50px; */
+    padding-top: 50px;
+}
+
+.offer h5 {
+    margin-left: 50px;
+    margin-bottom: 0;
+    color: #F00;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.offer h2 {
+    margin-top: 5px;
+    margin-left: 50px;
+    margin-bottom: 0;
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.offer p {
+    margin-top: 0;
+    margin-left: 50px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+}
+
+.Ellipse img {
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 463px;
+    border: 15px solid #F00;
+    padding: 20px;
+}
+
+.new-chapter {
+    margin-right: 50px;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+.new-chapter h2 {
+    margin-bottom: 0;
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.new-chapter p {
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
 }
