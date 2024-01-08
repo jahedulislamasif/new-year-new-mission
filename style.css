@@ -252,14 +252,14 @@
 .new-chapter {
     margin-right: 50px;
     margin-left: 10px;
-    margin-top: 50px;
+    margin-top: 60px;
 }
 
 .new-chapter h2 {
     margin-bottom: 0;
     color: #F00;
     font-family: Inter;
-    font-size: 48px;
+    font-size: 35px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -275,4 +275,121 @@
     font-weight: 400;
     line-height: 32px;
     /* 160% */
+}
+
+.holiday-content {
+    margin-top: 130px;
+    text-align: center;
+}
+
+.holiday-text h5 {
+    margin-bottom: 10px;
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.holiday-text h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.holiday-red {
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.holyday-text p {
+    margin-top: 0;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    /* 160% */
+}
+
+.portfolio {
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.portfolio h5 {
+    margin-bottom: 10px;
+    color: #F00;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.portfolio h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.portfolio p {
+    margin-top: 5px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+}
+
+.product-one {
+    margin-top: 30px;
+    display: flex;
+    margin-right: 50px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    
+
+}
+
+.product-one img {
+    width: 380px;
+    height: 400px;
+    flex-shrink: 0;
+    padding-left: 10px;
+
+}
+
+.product-two {
+    display: flex;
+    margin-right: 50px;
+    margin-left: 40px;
+}
+
+.product-two img{
+    width: 380px;
+    height: 400px;
+    flex-shrink: 0;
+    padding-left: 10px;
 }
