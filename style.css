@@ -83,8 +83,7 @@
     padding: 0 100px 0 100px;
     border-radius: 16px;
     display: flex;
-    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),
-        url('/resources/Vectorrr.png');
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('/resources/Vectorrr.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -369,7 +368,7 @@
     margin-right: 50px;
     margin-left: 40px;
     margin-bottom: 20px;
-    
+
 
 }
 
@@ -387,9 +386,83 @@
     margin-left: 40px;
 }
 
-.product-two img{
+.product-two img {
     width: 380px;
     height: 400px;
     flex-shrink: 0;
     padding-left: 10px;
+}
+
+.subscribe {
+    text-align: center;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    margin: 160px 50px 50px 50px;
+    padding: 50px 200px 90px 200px;
+
+}
+
+.form h2 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+
+}
+
+.form p {
+    margin-top: 0;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+}
+
+
+
+#Subscribe {
+    margin-top: 30px;
+    padding-left: 20px;
+    width: 477px;
+    height: 70px;
+    flex-shrink: 0;
+    border: 0;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    color: rgba(7, 2, 17, 0.30);
+    /* text-align: center; */
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+#btn-newsletter {
+    margin-top: 30px;
+    width: 210px;
+    height: 72px;
+    flex-shrink: 0;
+    border: 0;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    /* text-transform: capitalize; */
 }
