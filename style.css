@@ -520,8 +520,9 @@ footer {
 
 .social-icon {
     display: flex;
+    justify-content: center;
     text-align: center;
-    margin-left: 550px;
+    margin-right: 40px;
     margin-top: 80px;
 
 }
